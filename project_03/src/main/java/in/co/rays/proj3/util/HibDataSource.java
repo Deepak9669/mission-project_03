@@ -19,7 +19,7 @@ public class HibDataSource {
 	public static SessionFactory getSessionFactory() {
 
 		if (sessionFactory == null) {
-            ResourceBundle rb = ResourceBundle.getBundle("in.co.rays.project_3.bundle.system");
+            ResourceBundle rb = ResourceBundle.getBundle("in.co.rays.proj3.bundle.system");
 
             String jdbcUrl = System.getenv("DATABASE_URL");
             if (jdbcUrl == null || jdbcUrl.trim().isEmpty()) {
